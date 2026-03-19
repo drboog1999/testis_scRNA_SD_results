@@ -1,0 +1,11 @@
+Run: init_test 
+Params project: testis_scRNA_SD 
+Samples:
+  sample group batch chemistry notes
+1     C1     C  run1        v4    NA
+2     C2     C  run1        v4    NA
+3    SD1    SD  run1        v4    NA
+4    SD2    SD  run1        v4    NA
+null device 
+          1 
+OK
