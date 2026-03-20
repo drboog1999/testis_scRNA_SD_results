@@ -1,0 +1,10 @@
+step=00_smoketest
+run_id=review_smoke_real
+started_at=2026-03-20 13:46:02 +0800
+host=ohinnka-7B13
+project_root=/media/ohinnka/edb6b1fb-7bb3-4153-921c-f42619e74093/sperm_impair/testis_sc/raw
+params_snapshot=/media/ohinnka/edb6b1fb-7bb3-4153-921c-f42619e74093/sperm_impair/testis_sc/raw/runs/review_smoke_real/params_snapshot.yaml
+samples_snapshot=/media/ohinnka/edb6b1fb-7bb3-4153-921c-f42619e74093/sperm_impair/testis_sc/raw/runs/review_smoke_real/samples_snapshot.csv
+cli_dry_run=false
+exit_code=0
+finished_at=2026-03-20 13:46:02 +0800

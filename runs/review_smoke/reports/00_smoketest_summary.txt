@@ -1,0 +1,7 @@
+Purpose: engineering-only smoke test for local/dev validation.
+run_id: review_smoke
+project: testis_scRNA_SD
+dry_run: true
+
+This step does not require Seurat objects or raw matrices.
+It only validates run directory creation, config snapshot loading, and publish-site generation.

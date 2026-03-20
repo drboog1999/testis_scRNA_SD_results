@@ -1,0 +1,5 @@
+sample,group,batch,modality,input_hint,enabled,notes
+C1,C,run1,scRNA-seq,count_table/C1,TRUE,example row only
+C2,C,run1,scRNA-seq,count_table/C2,TRUE,example row only
+SD1,SD,run1,scRNA-seq,count_table/SD1,TRUE,example row only
+SD2,SD,run1,scRNA-seq,count_table/SD2,TRUE,example row only

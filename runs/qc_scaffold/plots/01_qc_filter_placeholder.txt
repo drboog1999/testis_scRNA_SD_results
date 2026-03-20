@@ -1,0 +1,2 @@
+Plot placeholder for step=01_qc_filter
+Generate PDF/PNG outputs on the Linux server once the biological logic is migrated.

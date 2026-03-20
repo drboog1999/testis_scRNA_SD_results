@@ -1,0 +1,63 @@
+project:
+  name: testis_scRNA_SD
+  modality: scRNA-seq
+  description: Engineering scaffold for a long-lived single-cell pipeline
+
+runtime:
+  seed: 1234
+  dry_run: true
+  auto_publish: true
+  auto_push_results: true
+
+storage:
+  raw_matrix_dir: count_table
+  large_object_dir: rds
+  local_results_repo_dir: .results_repo
+
+publish:
+  site_title: Testis Single-Cell Pipeline Runs
+  allowed_extensions:
+    - html
+    - txt
+    - log
+    - csv
+    - tsv
+    - png
+    - pdf
+
+qc:
+  min_features: 150
+  max_features: 7800
+  max_counts: 65000
+  max_mt: 15
+
+single_check:
+  nfeatures: 3000
+  dims: [1, 30]
+  resolution: 0.4
+
+integration:
+  method: SCT
+  nfeatures: 5000
+  dims_for_anchors: [1, 30]
+  regress:
+    - percent.mt
+
+clustering:
+  dims_grid:
+    - [1, 20]
+    - [1, 25]
+    - [1, 30]
+  res_grid: [0.2, 0.4, 0.6, 0.8]
+  dims_final: [1, 25]
+  res_final: 0.4
+  umap_method: uwot
+  umap_metric: cosine
+
+annotation:
+  marker_strategy: major_markers_first
+  top_markers_per_cluster: 10
+
+doubletfinder:
+  enabled: false
+  pcs: [1, 25]

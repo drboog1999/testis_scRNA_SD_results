@@ -1,0 +1,10 @@
+step: 00_smoketest
+run_id: dev_smoke
+dry_run: true
+
+This run used the shell fallback in scripts/run_step.sh because Rscript is unavailable on the current machine.
+The engineering structure was still validated:
+- run directory created
+- config snapshots recorded
+- log and exit files recorded
+- docs publication triggered

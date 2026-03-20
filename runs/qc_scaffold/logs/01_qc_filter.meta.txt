@@ -1,0 +1,10 @@
+step=01_qc_filter
+run_id=qc_scaffold
+started_at=2026-03-20 13:24:26 +0800
+host=minimaxs-Mac-mini.local
+project_root=/Users/minimax/Desktop/server_analysis_github_synchronization
+params_snapshot=/Users/minimax/Desktop/server_analysis_github_synchronization/runs/qc_scaffold/params_snapshot.yaml
+samples_snapshot=/Users/minimax/Desktop/server_analysis_github_synchronization/runs/qc_scaffold/samples_snapshot.csv
+cli_dry_run=true
+exit_code=0
+finished_at=2026-03-20 13:24:26 +0800

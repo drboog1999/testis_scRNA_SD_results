@@ -1,0 +1,3 @@
+Rscript was not found in PATH.
+Shell dry-run fallback generated placeholder artifacts for step=00_smoketest run_id=dev_smoke.
+Move real R execution to the Linux server, or install R locally if you need to run step logic on this machine.
